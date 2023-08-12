@@ -1,0 +1,62 @@
+body {
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  
+}
+
+main{
+  min-height: 80vh;
+}
+
+.navbar-logo-container {
+  width: 250px; /* Set the desired width */
+  height: 60px; /* Calculate the height based on the aspect ratio */
+  position: relative;
+  overflow: hidden;
+}
+
+.navbar-logo {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.custom-card {
+  border-radius: 0; /* Set border-radius to 0 to remove rounded corners */
+}
+
+/* styles.css */
+
+.custom-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0; /* Set border-radius to 0 to remove rounded corners from the card */
+}
+
+.custom-card-image {
+  border-radius: 0; /* Set border-radius to 0 to remove rounded corners from the card image */
+}
+
+/* styles.css */
+
+.content-container h1 {
+  margin-top: 50px; /* Adjust the margin value as needed */
+}
+
+.content-container h2 {
+  margin-top: 50px; /* Adjust the margin value as needed */
+}
+
+.content-container p {
+  margin-top: 20px; /* Adjust the margin value as needed */
+}
+
+.custom-card h3 {
+  text-align: center;
+}
+.custom-card p {
+  text-align: center;
+}
